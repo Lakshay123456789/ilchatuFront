@@ -40,15 +40,15 @@ const registerUser = asyncHandler(async (req, res) => {
             host: 'smtp.gmail.com',
             port: 587,
             auth: {
-              user: 'lakshaykamboj018@gmail.com',
-              pass: 'gxpilgstqhldbxkc',
+              user: 'ilchatu2023@gmail.com',
+              pass: 'wxydpjtxjkvcoikl',
             },
         });
 
    
         
     const mailOptions = {
-            from: "lakshaykamboj018@gmail.com",
+            from: "ilchatu2023@gmail.com",
             to: email,
             subject: 'Email Verification',
            text: `Click the following link to verify your email: http://localhost:5000/api/auth/verify/${verificationToken}/${user.id}`,

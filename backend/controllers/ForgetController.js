@@ -28,13 +28,13 @@ const ForgotPassword = async (req, res) => {
           host: 'smtp.gmail.com',
           port: 587,
           auth: {
-              user: '#############',
-              pass: '##############',
+              user: 'ilchatu2023@gmail.com',
+              pass: 'wxydpjtxjkvcoikl',
           },
       });
 
       const mailOptions = {
-          from: '#########################',
+          from: 'ilchatu2023@gmail.com',
           to: email,
           subject: 'Email Verification',
           text: `Click the following link to reset your password: ${link}`,
